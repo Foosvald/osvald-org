@@ -1,0 +1,14 @@
+[package]
+name = "osvald-org"
+version = "0.1.0"
+edition = "2021"
+description = "Personal website of Osvald Ivarsson completely unnecessarily built with Rust and Webassembly."
+readme = "README.md"
+repository = "https://github.com/Foosvald/osvald-org"
+license = "MIT"
+
+[dependencies]
+yew = "0.19.3"
+yew-router = "0.16.0"
+log = "0.4.6"
+wasm-logger = "0.2.0"
