@@ -7,6 +7,7 @@ mod pages;
 mod router;
 mod components;
 use components::navbar::Navbar;
+use components::footer::Footer;
 
 struct App {
 }
@@ -28,8 +29,13 @@ impl Component for App {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
             <BrowserRouter>
-                <Navbar />
-                <Switch<router::Route> render={Switch::render(router::switch)} />
+                <div class="wrapper">
+                    <Navbar />
+                    <div class="content">
+                        <Switch<router::Route> render={Switch::render(router::switch)} />
+                    </div>
+                    <Footer />
+                </div>
             </BrowserRouter>
         }
     }

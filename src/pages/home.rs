@@ -15,7 +15,7 @@ impl Component for Home {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
           <div>
-            <h1>{"About me"}</h1>
+            <h2>{"About me"}</h2>
             <img width=200 height=200 src="osvald_ivarsson.jpeg" />
             <p>{"I’m Osvald Ivarsson, a Swedish software developer who lives and works in Stockholm, Sweden."}</p>
             <p>{"Programming and solving problems using technology have been a big part of my life for a long time. I’m driven by quickly providing full stack solutions which solve problems and create a lot of value for the users."}</p>
