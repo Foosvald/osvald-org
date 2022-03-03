@@ -9,7 +9,7 @@ html, body {
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
-  grid-template-columns: minmax(auto, 1024px);
+  grid-template-columns: minmax(auto, 64rem);
   grid-template-rows: auto 1fr auto;
   justify-content: center;
   min-height: 100%;
@@ -18,7 +18,7 @@ html, body {
 .navbar {
   ul {
     display: grid;
-    grid-template-columns: repeat(3, fit-content(250px));
+    grid-template-columns: auto auto 1fr;
     grid-gap: 1rem;
     justify-items: left;
     align-items: center;
