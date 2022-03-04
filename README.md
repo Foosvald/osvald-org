@@ -8,5 +8,5 @@ Written in Rust using the [Yew](https://yew.rs/) framework which compiles to Web
 1. Run locally on port 8080: `trunk serve` (see results on http://localhost:8080)
 
 ## How to deploy
-1. Build release files in `/dist`: `trunk build --release`
+1. Build release files in `dist/`: `trunk build --release`
 2. Host the `dist` folder in any way you want.
